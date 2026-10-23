@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <script>
+        let guess=Number(prompt("Guess number:"))
+        let intajeer=2;
+        while(guess!==14){
+        if(guess>14){
+            console.log("Too high,try again!")
+        } else {
+            console.log("Too low,try again!")
+       }guess=parseInt(prompt("Guess number:"))
+        intajeer++;
+    }
+console.log("You guessed the number correctly!")
+console.log(`Attempted ${intajeer} times.`)
+    </script>
+</body>
+</html>
